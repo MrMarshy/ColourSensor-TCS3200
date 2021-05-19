@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "Tiva",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
+                "C:/Users/alan/Downloads/CrashCourse/BareMetal/ExampleProgs/TivaExampleProgs/tiva-c/**"
+            ],
+            "defines": ["TARGET_IS_TM4C123_RB1"],
+            "compilerPath": "C:\\Users\\alan\\Desktop\\lab\\toolchains\\arm-none-eabi-9-q2-2020\\bin\\arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

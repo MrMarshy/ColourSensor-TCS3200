@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-4.9.140-tegra-ubuntu18.04_aarch64/kernel-4.9/include/linux/**",
+                "/usr/src/linux-headers-4.9.140-tegra-ubuntu18.04_aarch64/kernel-4.9/include",
+                "/usr/src/linux-headers-4.9.140-tegra-ubuntu18.04_aarch64/kernel-4.9/arch/arm64/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-arm64"
+        }
+    ],
+    "version": 4
+}

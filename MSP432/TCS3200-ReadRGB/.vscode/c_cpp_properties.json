@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "MSP432",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__MSP432P401R__",
+                "TARGET_IS_MSP432P4XX",
+                "NO_MSP_CLASSIC_DEFINES"
+            ],
+            "compilerPath": "C:\\Users\\alan\\Desktop\\lab\\toolchains\\arm-none-eabi-9-q2-2020\\bin\\arm-none-eabi-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

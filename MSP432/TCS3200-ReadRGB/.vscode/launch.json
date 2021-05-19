@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug With SemiHosting",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/src/final_sh.axf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "svdFile": "msp432.svd",
+            "configFiles": ["msp432.cfg"],
+            "openOCDLaunchCommands": ["init", "arm semihosting enable"],
+        },
+        {
+            "name": "Cortex Debug Without SemiHosting",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/src/final.axf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "svdFile": "msp432.svd",
+            "configFiles": ["msp432.cfg"],
+            "runToMain": true
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+Dependencies for Project 'Keil-ReadRGBColours', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140001::V6.14.1::ARMCLANG
+F (.\main.c)(0x60104837)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/main.o -MD)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BEC8A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56448D1A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51830E)
+I (common.h)(0x60102097)
+I (uart.h)(0x6010116C)
+I (tinyprintf.h)(0x60100D63)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5F51830E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51830E)
+I (TCS320.h)(0x60103CD0)
+I (pulse_measure.h)(0x6010252D)
+F (.\accel.h)(0x60087FDB)()
+F (.\accel.c)(0x60088016)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/accel.o -MD)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BEC8A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56448D1A)
+I (common.h)(0x60102097)
+I (accel.h)(0x60087FDB)
+F (.\common.h)(0x60102097)()
+F (.\delay.c)(0x60087D68)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/delay.o -MD)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BEC8A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56448D1A)
+I (common.h)(0x60102097)
+F (.\pulse_measure.h)(0x6010252D)()
+F (.\pulse_measure.c)(0x60103809)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/pulse_measure.o -MD)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL24Z4.h)(0x585BEC8A)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL24Z4.h)(0x55FBD8F8)
+I (pulse_measure.h)(0x6010252D)
+F (.\uart.h)(0x6010116C)()
+F (.\uart.c)(0x60101176)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/uart.o -MD)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL04Z4.h)(0x585BEC8A)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL04Z4.h)(0x55FBD8F8)
+I (common.h)(0x60102097)
+I (uart.h)(0x6010116C)
+I (tinyprintf.h)(0x60100D63)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5F51830E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51830E)
+I (ring.h)(0x60100344)
+F (.\ring.h)(0x60100344)()
+F (.\ring.c)(0x60100382)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/ring.o -MD)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL04Z4.h)(0x585BEC8A)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL04Z4.h)(0x55FBD8F8)
+I (common.h)(0x60102097)
+I (ring.h)(0x60100344)
+F (.\tinyprintf.h)(0x60100D63)()
+F (.\tinyprintf.c)(0x60100D86)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/tinyprintf.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F51830E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (tinyprintf.h)(0x60100D63)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5F51830E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F51830E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\float.h)(0x5F51830E)
+F (.\TCS320.h)(0x60103CD0)()
+F (C:\Users\alan\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c)(0x5B8FC0FE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/eventrecorder.o -MD)
+I (RTE\_Target_1\RTE_Components.h)(0x600877D8)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BEC8A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56448D1A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h)(0x5B8FC0FE)
+I (RTE\Compiler\EventRecorderConf.h)(0x5E6F996C)
+F (RTE\Compiler\EventRecorderConf.h)(0x5E6F996C)()
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x56448D1A)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 532" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"MKL25Z128xxx4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mkl25z4.o)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x56448D1A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/alan/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.6.3/Include-IC:/Users/alan/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/system_mkl25z4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F51830E)
+I (C:\Users\alan\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BEC8A)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F41A2)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E837742)
+I (C:\Users\alan\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F41A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D336C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D3398)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56448D1A)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56448D1A)()
